@@ -1,0 +1,81 @@
+
+
+
+@charset "utf-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align:baseline;
+	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+body{
+	background-color: linear-gradient(120deg,#2980b9,#8e44ad);
+	
+}
+.wrapper{
+	width: 1350px;
+	height: auto;
+	margin: auto;
+	
+	
+}
+.header{
+	width: 1350px;
+	height: 125px;
+	border-bottom: 6px groove #DCCB2D;
+	background-image: url("../head.jpg")
+	
+}
+.left{
+	width:1093px;
+	height: 600px;
+	background:white;
+	float: left;
+		
+}
+
+.right{
+	width: 250px;
+	height: 600px;
+	border-left: 6px groove #C0C925;
+	float: right;
+	background: linear-gradient(120deg,#2980b9,#8e44ad);
+	
+}
+.right a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	text-align:left;
+	padding: 6px;
+	margin-bottom: 6px;
+	display: block;
+}
+.right a:hover {text-decoration:underline; font-weight:bolder;}
+.right a:visited {color:black;}
